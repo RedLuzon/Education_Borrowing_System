@@ -31,10 +31,8 @@ A smart, modern resource lending and inventory portal built with **Java Swing**.
 - Make sure you have **Java JDK** installed on your system.
 - An IDE like **IntelliJ IDEA** or Eclipse.
 
-### Running Locally
-1. Clone the repository:
-   ```bash
-   git clone [https://github.com/your-username/education-borrowing-system.git](https://github.com/your-username/education-borrowing-system.git)
 
+### File Directory
+<img width="758" height="414" alt="image" src="https://github.com/user-attachments/assets/ae100c67-0803-4230-8a5b-c8bd94abd55b" />
 
    
