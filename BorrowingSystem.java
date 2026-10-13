@@ -40,7 +40,7 @@ public class BorrowingSystem extends JFrame {
         cardPanel = new JPanel(cardLayout);
         cardPanel.setBackground(UiKit.BG);
 
-        // Idinagdag ang Start Screen bilang panimula bago mag-login
+    
         cardPanel.add(new StartScreen(this), "START");
         cardPanel.add(new LoginScreen(this), "LOGIN");
         cardPanel.add(new HomeScreen(this), "HOME");
@@ -69,7 +69,7 @@ public class BorrowingSystem extends JFrame {
         cardPanel.setBounds(0, 0, getWidth(), getHeight() - 40);
         glass.setBounds(0, 0, getWidth(), getHeight() - 40);
 
-        // Simulan ang app sa Start Screen animation
+    
         cardLayout.show(cardPanel, "START");
 
         JRootPane rp = getRootPane();
@@ -178,7 +178,6 @@ public class BorrowingSystem extends JFrame {
     }
 }
 
-// --- START / SPLASH SCREEN ANIMATION (Fixed - No Flicker) ---
 class StartScreen extends JPanel {
     StartScreen(BorrowingSystem app) {
         setDoubleBuffered(true);
@@ -208,7 +207,6 @@ class StartScreen extends JPanel {
         sub.setFont(UiKit.CAPTION); sub.setForeground(UiKit.TEXT_SUB);
         card.add(sub, gbc);
 
-        // Pinalitan ang JProgressBar ng malinis na Badge / Divider para maiwasan ang flickering
         gbc.gridy++;
         gbc.insets = new Insets(0, 0, 18, 0);
         Chip versionChip = new Chip("Powered by RedLuzon", UiKit.PRIMARY, UiKit.tint(UiKit.PRIMARY, 22));
@@ -222,7 +220,6 @@ class StartScreen extends JPanel {
 
         add(card);
 
-        // Ligtas at walang flickering na paglipat sa Login screen kapag clinic ang button
         startBtn.addActionListener(e -> app.switchScreen("LOGIN"));
     }
 
