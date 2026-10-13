@@ -300,7 +300,6 @@ class HomeScreen extends JPanel {
     }
 }
 
-// Inline Sidebar class (no separate file needed)
 class Sidebar extends JPanel {
     Sidebar(BorrowingSystem app, String current) {
         setPreferredSize(new Dimension(220, getHeight()));
