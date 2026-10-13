@@ -13,7 +13,7 @@ class LoginScreen extends JPanel {
 
     public LoginScreen(BorrowingSystem app) {
         setDoubleBuffered(true);
-        setOpaque(false); // <--- Inalis ang default opaque background para walang flash/flicker
+        setOpaque(false); 
         setLayout(new GridBagLayout());
 
         card = new RoundedPanel(22, UiKit.SURFACE, true);
