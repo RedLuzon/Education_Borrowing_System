@@ -35,16 +35,18 @@ A smart, modern resource lending and inventory portal built with **Java Swing**.
 ### File Directory
 <img width="758" height="414" alt="image" src="https://github.com/user-attachments/assets/ae100c67-0803-4230-8a5b-c8bd94abd55b" />
 
-#### SYSTEM PAGES
-<img width="1917" height="1167" alt="Screenshot 2026-10-18 202306" src="https://github.com/user-attachments/assets/1746877e-a854-4e4b-b690-24c90f8f53e2" />
+#### SYSTEM PAGES<img width="1917" height="1167" alt="Screenshot 2026-10-18 202254" src="https://github.com/user-attachments/assets/2024e28c-5eb0-464d-9d54-1e3e23e3ae8a" />
 
-<img width="1917" height="1167" alt="Screenshot 2026-10-18 202254" src="https://github.com/user-attachments/assets/4b58d3b0-842f-4d63-86cb-1068f406c1ab" />
+<img width="1917" height="1171" alt="Screenshot 2026-10-18 202221" src="https://github.com/user-attachments/assets/9925b086-d395-4a56-b793-cc0eef9c0699" />
 
-<img width="1917" height="1167" alt="Screenshot 2026-10-18 202241" src="https://github.com/user-attachments/assets/180158be-5d38-42c2-958a-70c1bf25216f" />
+<img width="1917" height="1170" alt="Screenshot 2026-10-18 202206" src="https://github.com/user-attachments/assets/985b0bb5-5cb2-4424-8966-4e9945baa225" />
 
-<img width="1917" height="1171" alt="Screenshot 2026-10-18 202221" src="https://github.com/user-attachments/assets/58d8b2e5-ff5a-47cd-9f4f-261e0011bf77" />
+<img width="1917" height="1167" alt="Screenshot 2026-10-18 202306" src="https://github.com/user-attachments/assets/7fb5f9f8-5274-473a-9e45-15bf5472b4d4" />
 
-<img width="1917" height="1170" alt="Screenshot 2026-10-18 202206" src="https://github.com/user-attachments/assets/2379d9ea-5a00-40dc-858d-35a58540b7d9" />
+<img width="1917" height="1167" alt="Screenshot 2026-10-18 202241" src="https://github.com/user-attachments/assets/f15c1cde-623b-44b0-a944-27000f2d21ec" />
+
+
+
 
 
 
