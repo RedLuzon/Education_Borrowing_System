@@ -40,7 +40,6 @@ public class BorrowingSystem extends JFrame {
         cardPanel = new JPanel(cardLayout);
         cardPanel.setBackground(UiKit.BG);
 
-    
         cardPanel.add(new StartScreen(this), "START");
         cardPanel.add(new LoginScreen(this), "LOGIN");
         cardPanel.add(new HomeScreen(this), "HOME");
@@ -69,7 +68,6 @@ public class BorrowingSystem extends JFrame {
         cardPanel.setBounds(0, 0, getWidth(), getHeight() - 40);
         glass.setBounds(0, 0, getWidth(), getHeight() - 40);
 
-    
         cardLayout.show(cardPanel, "START");
 
         JRootPane rp = getRootPane();
@@ -219,7 +217,7 @@ class StartScreen extends JPanel {
         card.add(startBtn, gbc);
 
         add(card);
-
+        
         startBtn.addActionListener(e -> app.switchScreen("LOGIN"));
     }
 
